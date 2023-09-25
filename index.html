@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> <link rel="stylesheet" href="style_login.css">
 </head>
 <body>
-    <!-- <ul>
-        <a href="html/tablas.html">IR a tablas</a>
-    </ul> -->
-    <h2>Escoge a donde quieres ir</h2>
-
-    <ul>
-        <li><a href="html/tablas.html">IR a tablas</a></li>
-        <br>
-        <li><a href="html/formularios.html">IR a formularios</a></li>
-        <br>
-        <li><a href="html/texto.html">IR a texto</a></li>
-        <br>
-        <li><a href="html/semanticas.html">IR a semanticas</a></li>
-        <br>
-        <li><a href="html/agrupacion.html">IR a agrupacion</a></li>
-        <br>
-        <li><a href="html/estilos.html">Ir a estilos</a></li>
-        <br>
-        <li><a href="flexbox.html">Ir a Flexbox</a></li>
-    </ul>
-
+   <div class="background"></div>
+   <div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
+            <img src="https://th.bing.com/th/id/OIP.jXgufkp_TcAKgKpogfaDkQHaH3?pid=ImgDet&rs=1" alt="" class="login">
+            <h1>INICIAR SESION</h1>
+        </div>
+        <div class="text_field">
+            <label for="">Email</label>
+            <input type="email" id="email" name="email" aria-label="Email" placeholder="Ingrese su correo electronico" required>
+            <img src="" alt="">
+        </div>
+        <div class="text_field">
+            <label for="password">password</label>
+            <input type="text" id="password" name="password" placeholder="ingrese su credencial" required>
+            <img src="" alt="">
+        </div>
+        <input type="submit" class="my_form_button" value="Login">
+        <div class="my_form_actions">
+            <div class="my_form">
+                <span>Olvidaste tu contraseña</span>
+                <a href="#" title="Recuperar contraseña"> Recuperar contraseña</a>
+            </div>
+            <div class="my_form_signup">
+                <a href="#" title="Create Account"> Crear cuenta</a>
+            </div>
+        </div>
+    </form>
+   </div>
 </body>
 </html>
